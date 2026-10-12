@@ -1,0 +1,52 @@
+{
+  "moonbeam": {
+    "chain": "moonbeam",
+    "date": "2025-03-21",
+    "load_top10_threshold": 0.3674016533333333,
+    "outputs": {
+      "load_csv": "data/moonbeam_2025-03-21/moonbeam_load_2025-03-21.csv",
+      "fee_load_csv": "data/moonbeam_2025-03-21/moonbeam_fee_load_2025-03-21.csv",
+      "fee_load_1min_csv": "data/moonbeam_2025-03-21/moonbeam_fee_load_2025-03-21_1min.csv",
+      "top10_load_block_csv": "data/moonbeam_2025-03-21/moonbeam_fee_load_top10pct_load_2025-03-21.csv"
+    },
+    "overall_block_level": {
+      "rows": 14203,
+      "valid_log_rows": 14203,
+      "pearson_log_base_fee_vs_log_median_effective_gas_price": 0.015539854371151298,
+      "base_fee_share_median": 0.9541984732824428,
+      "base_fee_share_mean": 0.9192077973393666
+    },
+    "top10_load_block_level": {
+      "rows": 1421,
+      "valid_log_rows": 1421,
+      "pearson_log_base_fee_vs_log_median_effective_gas_price": 0.0039013262325306272,
+      "base_fee_share_median": 0.8635251811586206,
+      "base_fee_share_mean": 0.9008586850190397
+    }
+  },
+  "eth": {
+    "chain": "eth",
+    "date": "2025-12-23",
+    "load_top10_threshold": 0.8893769851449053,
+    "outputs": {
+      "load_csv": "data/eth_2025-12-23/eth_load_2025-12-23.csv",
+      "fee_load_csv": "data/eth_2025-12-23/eth_fee_load_2025-12-23.csv",
+      "fee_load_1min_csv": "data/eth_2025-12-23/eth_fee_load_2025-12-23_1min.csv",
+      "top10_load_block_csv": "data/eth_2025-12-23/eth_fee_load_top10pct_load_2025-12-23.csv"
+    },
+    "overall_block_level": {
+      "rows": 7158,
+      "valid_log_rows": 7158,
+      "pearson_log_base_fee_vs_log_median_effective_gas_price": 0.6672363202181157,
+      "base_fee_share_median": 0.9235550942590225,
+      "base_fee_share_mean": 0.847507951348823
+    },
+    "top10_load_block_level": {
+      "rows": 716,
+      "valid_log_rows": 716,
+      "pearson_log_base_fee_vs_log_median_effective_gas_price": 0.9740579437553808,
+      "base_fee_share_median": 0.9625622981296347,
+      "base_fee_share_mean": 0.946009934901853
+    }
+  }
+}
